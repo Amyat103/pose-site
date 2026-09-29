@@ -1,201 +1,103 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>rollcall! · privacy policy</title>
-    <style>
-      body {
-        margin: 0;
-        background: #f3eee4;
-        color: #141210;
-        font:
-          16px/1.6 Helvetica,
-          Arial,
-          sans-serif;
-      }
-      main {
-        max-width: 640px;
-        margin: 0 auto;
-        padding: 40px 20px 64px;
-      }
-      h1 {
-        font-size: 40px;
-        line-height: 1.1;
-        margin: 32px 0 8px;
-      }
-      h2 {
-        font-size: 20px;
-        margin: 32px 0 8px;
-      }
-      a {
-        color: #141210;
-      }
-      .dot {
-        color: #e8577e;
-      }
-      ul {
-        padding-left: 20px;
-      }
-      nav a {
-        margin-right: 16px;
-      }
-      small {
-        color: #6b655c;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <nav>
-        <a href="index.html">support</a><a href="privacy.html">privacy</a
-        ><a href="terms.html">terms</a>
-      </nav>
-      <h1>privacy policy<span class="dot">●</span></h1>
-      <p><small>last updated: September 29, 2026</small></p>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rollcall! · privacy</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon-180.png">
+<link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<main>
+  <header class="top">
+    <a class="brand" href="index.html"><img src="rollcall-mark-192.png" alt=""><span>rollcall<span class="bang">!</span></span></a>
+    <nav class="tabs"><a href="index.html">support</a><a href="privacy.html" aria-current="page">privacy</a><a href="terms.html">terms</a></nav>
+  </header>
 
-      <p>
-        rollcall! ("the app", "we") is made by David Myat. this policy explains what
-        the app collects, why, who else handles it, and how to delete it.
-        questions:
-        <a href="mailto:thombie326@gmail.com">thombie326@gmail.com</a>.
-      </p>
+  <div class="hero">
+    <h1>privacy policy<span>!</span></h1>
+    <span class="pill">last updated · september 29, 2026</span>
+    <p class="lede">rollcall! ("the app", "we") is made by David Myat. this policy explains what the app collects, why, who else handles it, and how to delete it. questions: <a href="mailto:thombie326@gmail.com">thombie326@gmail.com</a>.</p>
+  </div>
 
+  <div class="grid">
+    <section class="card summary"><h4>the short version</h4><p>no location. no ads. no analytics. we don't sell your data.</p></section>
+    <section class="card summary"><h4>who sees your pics</h4><p>only people in the same trip, through links that expire.</p></section>
+  </div>
+
+  <div class="card big">
+    <section>
       <h2>what we collect</h2>
-      <ul>
-        <li>
-          <strong>account:</strong> your email address, and a password (stored
-          only as a secure hash) if you sign up with email. if you use Google
-          sign-in, Google shares your Google account ID, email, name and profile
-          picture link. if you use Apple sign-in, Apple shares your Apple
-          account ID, your email (which may be a private relay address) and, the
-          first time only, your name.
-        </li>
+      <ul class="dots">
+        <li><strong>account:</strong> your email address, and a password (stored only as a secure hash) if you sign up with email. if you use Google sign-in, Google shares your Google account ID, email, name and profile picture link. if you use Apple sign-in, Apple shares your Apple account ID, your email (which may be a private relay address) and, the first time only, your name.</li>
         <li><strong>profile:</strong> the display name you choose and a profile photo, if you add one.</li>
-        <li>
-          <strong>game content:</strong> the trips you create or join, prompts
-          you write, photos you post, your votes, pics you flag, and people you
-          block.
-        </li>
-        <li>
-          <strong>trip timezone:</strong> when a trip admin starts a trip, the
-          app reads the phone's timezone setting so daily rounds run on local
-          time. it is not your location.
-        </li>
-        <li>
-          <strong>technical data:</strong> when you sign in, our backend
-          provider records your IP address and device/app type (user agent) with
-          your login session, and keeps request logs that include IP addresses.
-        </li>
-        <li>
-          <strong>notifications:</strong> if you allow them, your phone's push
-          token, so we can send trip pings to this phone. turn pings off anytime
-          on the you tab.
-        </li>
+        <li><strong>game content:</strong> the trips you create or join, prompts you write, photos you post, your votes, pics you flag, and people you block.</li>
+        <li><strong>trip timezone:</strong> when a trip admin starts a trip, the app reads the phone's timezone setting so daily rounds run on local time. it is not your location.</li>
+        <li><strong>technical data:</strong> when you sign in, our backend provider records your IP address and device/app type (user agent) with your login session, and keeps request logs that include IP addresses.</li>
+        <li><strong>notifications:</strong> if you allow them, your phone's push token, so we can send trip pings to this phone. turn pings off anytime on the you tab.</li>
       </ul>
-
+    </section>
+    <div class="rule"></div>
+    <section>
       <h2>what we don't collect</h2>
-      <ul>
-        <li>
-          no location. photos are re-encoded before upload, which removes the
-          hidden photo data (EXIF), including GPS location and camera details.
-        </li>
-        <li>
-          no analytics, advertising or crash-reporting tools, and no tracking
-          across other apps or websites.
-        </li>
+      <ul class="dots">
+        <li>no location. photos are re-encoded before upload, which removes the hidden photo data (EXIF), including GPS location and camera details.</li>
+        <li>no analytics, advertising or crash-reporting tools, and no tracking across other apps or websites.</li>
         <li>we don't sell your data.</li>
       </ul>
-
+    </section>
+    <div class="rule"></div>
+    <section>
       <h2>how we use it</h2>
-      <p>
-        only to run the game: signing you in, showing your trips, photos and
-        results to the people in the same trip, sending password reset codes,
-        and handling reports so we can remove content that breaks our
-        <a href="terms.html">terms</a>.
-      </p>
-
+      <p>only to run the game: signing you in, showing your trips, photos and results to the people in the same trip, sending sign-up and password reset codes, and handling reports so we can remove content that breaks our <a href="terms.html">terms</a>.</p>
+    </section>
+    <div class="rule"></div>
+    <section>
       <h2>who can see your content</h2>
-      <p>
-        photos, prompts, votes and results are visible only to members of the
-        same trip. photos are stored privately and shown through links that
-        expire. anyone with a trip's room code can join that trip, so share
-        codes only with people you trust. if you flag a pic, only we see that
-        you flagged it.
-      </p>
-
+      <p>photos, prompts, votes and results are visible only to members of the same trip. photos are stored privately and shown through links that expire. anyone with a trip's room code can join that trip, so share codes only with people you trust. if you flag a pic, only we see that you flagged it.</p>
+    </section>
+    <div class="rule"></div>
+    <section>
       <h2>services that handle your data</h2>
-      <ul>
-        <li>
-          <strong>Supabase</strong> hosts our database, sign-in, photo storage
-          and server functions (United States).
-        </li>
-        <li>
-          <strong>Resend</strong> sends password reset emails and report emails.
-          a report email to us includes the trip name, prompt text, the names
-          and user IDs of the poster and the person who flagged it, and a link
-          to the photo that expires after 7 days.
-        </li>
-        <li>
-          <strong>Expo</strong> delivers notifications, through Apple's and
-          Google's push services. it receives your phone's push token and each
-          notification's text, which includes the trip name.
-        </li>
-        <li>
-          <strong>Google</strong> and <strong>Apple</strong>, only if you choose
-          to sign in with them.
-        </li>
-      </ul>
-      <p>these providers process data on our behalf to run the app.</p>
-
+      <div class="service"><b>Supabase</b><span>hosts our database, sign-in, photo storage and server functions (United States).</span></div>
+      <div class="service"><b>Resend</b><span>sends sign-up and password reset codes, and report emails. a report email to us includes the trip name, prompt text, the names and user IDs of the poster and the person who flagged it, and a link to the photo that expires after 7 days.</span></div>
+      <div class="service"><b>Expo</b><span>delivers notifications, through Apple's and Google's push services. it receives your phone's push token and each notification's text, which includes the trip name.</span></div>
+      <div class="service"><b>Google, Apple</b><span>only if you choose to sign in with them.</span></div>
+      <p class="small mid">these providers process data on our behalf to run the app.</p>
+    </section>
+    <div class="rule"></div>
+    <section>
       <h2>on your phone</h2>
-      <p>
-        the app keeps your login and a cache of photos you've viewed (up to
-        about 250 MB) on your device. the cache is cleared when you log out.
-      </p>
+      <p>the app keeps your login and a cache of photos you've viewed (up to about 250 MB) on your device. the cache is cleared when you log out.</p>
+    </section>
+  </div>
 
-      <h2>deleting your data</h2>
-      <p>
-        open <strong>you → privacy, help &amp; delete → delete my account</strong>. this permanently removes
-        your account, your sign-in details, your trip memberships and display
-        names, your photos and their files, your votes, flags and blocks, other
-        people's votes and flags on your photos, and any trips you created that
-        nobody else joined.
-      </p>
-      <p>some things remain:</p>
-      <ul>
-        <li>prompts you wrote stay in their trips, with your name removed.</li>
-        <li>
-          trips you created that others joined stay for them, and another member
-          becomes admin.
-        </li>
-        <li>
-          report emails already sent to us (they expire from our inbox when we
-          delete them; the photo link stops working after 7 days).
-        </li>
-        <li>
-          our providers' logs, which include IP addresses, until they expire
-          under the providers' retention periods.
-        </li>
-        <li>
-          other members' phones may keep a cached copy of your photos until
-          their app clears it.
-        </li>
-      </ul>
-      <p>to ask about or request deletion of anything else, email us.</p>
+  <section class="card roomy">
+    <h2>deleting your data</h2>
+    <div class="path"><span>you</span><b>→</b><span>privacy, help &amp; delete</span><b>→</b><span>delete my account</span></div>
+    <p>this permanently removes your account, your sign-in details, your trip memberships and display names, your photos and their files, your votes, flags and blocks, other people's votes and flags on your photos, and any trips you created that nobody else joined.</p>
+    <h4>some things remain</h4>
+    <ul class="dots tight">
+      <li>prompts you wrote stay in their trips, with your name removed.</li>
+      <li>trips you created that others joined stay for them, and another member becomes admin.</li>
+      <li>report emails already sent to us (they expire from our inbox when we delete them; the photo link stops working after 7 days).</li>
+      <li>our providers' logs, which include IP addresses, until they expire under the providers' retention periods.</li>
+      <li>other members' phones may keep a cached copy of your photos until their app clears it.</li>
+    </ul>
+    <p class="small mid">to ask about or request deletion of anything else, email us.</p>
+  </section>
 
-      <h2>kids</h2>
-      <p>
-        rollcall! is not meant for children under 13. we don't knowingly collect
-        data from them. if you think a child has an account, email us and we'll
-        delete it.
-      </p>
+  <div class="grid">
+    <section class="card"><h3>kids</h3><p class="small">rollcall! is not meant for children under 13. we don't knowingly collect data from them. if you think a child has an account, email us and we'll delete it.</p></section>
+    <section class="card"><h3>changes</h3><p class="small">if this policy changes, we'll update the date above and, for significant changes, tell you in the app.</p></section>
+  </div>
 
-      <h2>changes</h2>
-      <p>
-        if this policy changes, we'll update the date above and, for significant
-        changes, tell you in the app.
-      </p>
-    </main>
-  </body>
+  <footer class="foot">
+    <a class="brand" href="index.html"><img src="rollcall-mark-192.png" alt=""><span>rollcall<span class="bang">!</span></span></a>
+    <nav><a href="index.html">support</a><a href="privacy.html">privacy</a><a href="terms.html">terms</a></nav>
+  </footer>
+</main>
+</body>
 </html>
