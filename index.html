@@ -1,106 +1,65 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>rollcall! · support</title>
-    <style>
-      body {
-        margin: 0;
-        background: #f3eee4;
-        color: #141210;
-        font:
-          16px/1.6 Helvetica,
-          Arial,
-          sans-serif;
-      }
-      main {
-        max-width: 640px;
-        margin: 0 auto;
-        padding: 40px 20px 64px;
-      }
-      h1 {
-        font-size: 40px;
-        line-height: 1.1;
-        margin: 0 0 8px;
-      }
-      h2 {
-        font-size: 20px;
-        margin: 32px 0 8px;
-      }
-      a {
-        color: #141210;
-      }
-      .dot {
-        color: #e8577e;
-      }
-      .card {
-        background: #fffdf8;
-        border: 2px solid #141210;
-        border-radius: 18px;
-        padding: 20px;
-        margin: 24px 0;
-      }
-      nav a {
-        margin-right: 16px;
-      }
-      small {
-        color: #6b655c;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <nav>
-        <a href="index.html">support</a><a href="privacy.html">privacy</a
-        ><a href="terms.html">terms</a>
-      </nav>
-      <h1 style="margin-top: 32px">rollcall!<span class="dot">●</span> support</h1>
-      <p>
-        rollcall! is a photo game for trips with friends: daily prompts, everyone
-        snaps a pic, the group votes.
-      </p>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rollcall! · support</title>
+<meta name="description" content="rollcall! is a photo game for trips with friends: daily prompts, everyone snaps a pic, the group votes.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon-180.png">
+<link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<main>
+  <header class="top">
+    <a class="brand" href="index.html"><img src="rollcall-mark-192.png" alt=""><span>rollcall<span class="bang">!</span></span></a>
+    <nav class="tabs"><a href="index.html" aria-current="page">support</a><a href="privacy.html">privacy</a><a href="terms.html">terms</a></nav>
+  </header>
 
-      <div class="card">
-        <strong>questions, problems or a report?</strong><br />
-        email <a href="mailto:thombie326@gmail.com">thombie326@gmail.com</a>. we
-        aim to reply within 24 hours.
-      </div>
+  <section class="card">
+    <h4 class="mid">what is rollcall!</h4>
+    <p class="intro">a photo game for trips with friends: daily prompts, everyone snaps a pic, the group votes.</p>
+    <p class="small mid">start a trip, share the room code with your crew, and vote on each day's best pics. when the trip ends, you get a recap of every winner.</p>
+    <span class="pill yellow">coming soon to iOS and Android</span>
+  </section>
 
-      <h2>report a pic</h2>
-      <p>
-        in a vote, press and hold the pic, then tap <strong>flag</strong>. it
-        comes straight to us, and nobody in the trip sees who flagged it. we
-        review reports and remove content that breaks our
-        <a href="terms.html">terms</a>, usually within 24 hours. to report
-        anything else (a prompt, a name, a person), email us.
-      </p>
+  <h1>need a hand<span>?</span></h1>
 
-      <h2>block someone</h2>
-      <p>
-        in a vote, press and hold their pic, then tap <strong>block</strong>.
-        you won't see their pics anywhere in the app, and they won't be told. to
-        unblock, press and hold a hidden tile.
-      </p>
+  <section class="card contact">
+    <h4 class="mid">questions, problems or a report?</h4>
+    <a class="email" href="mailto:thombie326@gmail.com">thombie326@gmail.com</a>
+    <span class="pill yellow">we aim to reply within 24 hours</span>
+  </section>
 
-      <h2 id="delete">delete your account</h2>
-      <p>
-        in the app: open the <strong>you</strong> tab, tap
-        <strong>privacy, help &amp; delete</strong>, then
-        <strong>delete my account</strong>.
-      </p>
-      <p>
-        can't open the app? email
-        <a href="mailto:thombie326@gmail.com">thombie326@gmail.com</a>
-        from your account's email address and we'll delete your account within 30 days.
-      </p>
-      <p>
-        <strong>deleted:</strong> your account and sign-in details, your profile name and photo,
-        the photos you posted, your votes, flags and blocks, and any trips only you were in.<br>
-        <strong>kept:</strong> prompts you wrote stay in their trips without your name; shared trips
-        stay for the other members; server logs expire on their own.
-        full details in the <a href="privacy.html">privacy policy</a>.
-      </p>
-    </main>
-  </body>
+  <div class="grid">
+    <section class="card">
+      <h3><span class="dot"></span>report a pic</h3>
+      <p>press and hold any pic, then tap <strong>flag</strong>. it comes straight to us, and nobody in the trip sees who flagged it.</p>
+      <p class="small mid">we remove anything that breaks our <a href="terms.html">terms</a>, usually within 24 hours. to report a prompt, a name or a person, email us.</p>
+    </section>
+    <section class="card">
+      <h3><span class="dot yellow"></span>block someone</h3>
+      <p>press and hold any of their pics, then tap <strong>block</strong>. you won't see their pics anywhere in the app, and they won't be told.</p>
+      <p class="small mid">to unblock, press and hold a hidden tile.</p>
+    </section>
+  </div>
+
+  <section id="delete" class="card roomy">
+    <h3><span class="dot lilac"></span>delete your account</h3>
+    <div class="path"><span>you tab</span><b>→</b><span>privacy, help &amp; delete</span><b>→</b><span>delete my account</span></div>
+    <p>can't open the app? email <a href="mailto:thombie326@gmail.com">thombie326@gmail.com</a> from your account's email address and we'll delete your account within 30 days.</p>
+    <div class="rule"></div>
+    <div class="grid">
+      <div><h4>deleted</h4><p class="small mid">your account and sign-in details, your profile name and photo, the photos you posted, your votes, flags and blocks, and any trips only you were in.</p></div>
+      <div><h4>kept</h4><p class="small mid">prompts you wrote stay in their trips without your name; shared trips stay for the other members; server logs expire on their own. full details in the <a href="privacy.html">privacy policy</a>.</p></div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <a class="brand" href="index.html"><img src="rollcall-mark-192.png" alt=""><span>rollcall<span class="bang">!</span></span></a>
+    <nav><a href="index.html">support</a><a href="privacy.html">privacy</a><a href="terms.html">terms</a></nav>
+  </footer>
+</main>
+</body>
 </html>
